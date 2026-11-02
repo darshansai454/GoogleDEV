@@ -120,25 +120,3 @@ NotifyReact("unityNavigationCompleted", "{\"destinationId\":\"computer-lab-a202\
 8. Build to: `C:\Users\darsh\.gemini\antigravity-ide\scratch\campusnav-ai\public\unity`.
 *(Note: Until you run the manual Unity build, CampusNav AI automatically uses its interactive 3D WebGL simulator which implements the exact same `ReactBridge` interface, so the entire demo is 100% functional immediately!)*
 
----
-
-## 🎤 2-Minute Demo Script for Hackathon Judges
-
-### **0:00 - 0:25: Problem & Introduction**
-> *"Judges, every semester thousands of new students, parents, and visitors get lost on large university campuses. Signboards are static, and security guards are constantly interrupted for directions. We built **CampusNav AI** — an intelligent smart campus navigation platform combining real interactive 3D visualization, indoor multi-floor pathfinding, and QR checkpoints."*
-
-### **0:25 - 0:50: Instant Search & 3D Environment**
-> *(On screen: Click "Start Navigation" with Computer Lab A-202)*  
-> *"Here on the home screen, I simply search for 'Computer Lab A-202'. Instantly, CampusNav AI opens our interactive 3D campus environment. Notice our bright daylight campus models, labeled buildings, and smooth orbit camera controls. The route is automatically calculated from our starting gate all the way to Academic Block A."*
-
-### **0:50 - 1:15: QR Checkpoints & Indoor Multi-Floor Navigation**
-> *(On screen: Click "Scan QR" -> Select "Block A Ground Foyer Checkpoint")*  
-> *"When a student enters the building, they scan the QR checkpoint at the door. Watch what happens: our location immediately updates to the ground floor foyer. Our Dijkstra engine detects that Computer Lab A-202 is on Floor 1, automatically routing through the elevator and switching to the indoor floor plan view."*
-
-### **1:15 - 1:40: Accessible Wheelchair Routing & Camera Guidance**
-> *(On screen: Toggle "Accessible Mode" ON, then tap "AR View")*  
-> *"Notice our Accessibility Mode toggle: when enabled, the pathfinder strictly avoids staircases and routes exclusively through elevators and ramps. And for visitors on foot, tapping 'AR View' launches our live camera directional guidance, overlaying animated turn-by-turn arrows right on their camera feed."*
-
-### **1:40 - 2:00: Admin & Conclusion**
-> *(On screen: Open Admin Dashboard -> mark arrived)*  
-> *"Finally, campus administrators have a dedicated management dashboard to add rooms, configure QR checkpoints, and update accessibility properties in real time. CampusNav AI turns any complex university into an effortless, accessible, 3D-guided experience. Thank you!"*
