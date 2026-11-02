@@ -1,4 +1,5 @@
-# CampusNav AI 🧭
+# ALLIANCE ATLAS
+
 > **AI-Powered 3D Smart Campus Navigation Platform with Real Unity WebGL Integration**  
 > *Developed for the University Campus Innovation Challenge (6-Hour Build)*
 
